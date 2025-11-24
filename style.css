@@ -1,1 +1,45 @@
+.body {
+    background-color: #FFE5D1;
+    font-family: Corbel, Arial, Verdana;
+}
 
+.header {
+    border: 2px solid black;
+    display: flex;
+}
+
+.header-home{
+    border: 2px solid black;
+    width: 300px;
+    margin-right: 300px;
+    display: flex;
+
+}
+
+.header-nav {
+    
+    border: 2px solid black;    
+    width: 600px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.ulNav {
+    list-style: none;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.liNav {
+    background-color: #FFE5D1;
+    display:flex;
+    border: 5px solid #f8d1b3;
+    border-radius:  70px;
+    padding: 20px;
+    width: 120px;
+    margin:15px;
+    justify-content: center;
+
+}
