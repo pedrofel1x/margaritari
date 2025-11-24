@@ -33,19 +33,26 @@
 
 }
 
-.header-nav {
+.header-nav{
     
     border: 2px solid black; 
     display: flex;
-    width: 100%;
     background-color: aquamarine;
-    justify-content: space-evenly;
+    
+    justify-content: space-between;
+    
     
 
 }
 .ulNav {
+    margin: 0;         /* remove espaço padrão */
+    padding: 0;
+    background-color: beige;
     list-style: none;
     display: flex; 
+    justify-content: center;
+    gap: 20px;
+    
 }
 
 .liNav {
@@ -56,7 +63,8 @@
     padding: 20px;
     width: 120px;
     margin:15px;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center;   
 }
 
 .liNav:hover{
