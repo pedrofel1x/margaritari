@@ -32,40 +32,79 @@
     display: flex;
     justify-content: space-between;  /* coloca logo à esquerda, menu à direita */
     align-items: center;             /* alinha verticalmente */
-    padding: 5px 10px 5px 20px;
+    padding: 5px 10px 5px 20px;  /*COLOQUEI ESTE PADDING PARA O LOGO FICAR MAIS PARA A ESQUERDA E O MENU UM POUCO PARA A DIREITA DA MARGEM */
     
 }
 
 .header-nav{
     
-    border: 2px solid black; 
     display: flex;
-    background-color: aquamarine;
-     flex-direction: column;
+    flex-direction: column;
     align-items: center;
 }
 
 .ulNav {
     margin: 0px;         
-    padding: 0px;
-    background-color: beige;
     list-style: none;
     display: flex; 
     justify-content: center;
 }
 
 .liNav {
-    background-color: #FFE5D1;
     display:flex;
-    border: 5px solid #f8d1b3;
-    border-radius:  70px;
+    border-radius: 50px;
+    width: 150px;
     padding: 20px;
-    width: 120px;
-    margin:15px;
+    margin: 5px;
     justify-content: center; 
     align-items: center;   
 }
 
-.liNav:hover{
-    background-color: #f8d1b3;
+.liNav a {
+    color: black;       /* cor normal */
+    text-decoration: none; /* remove o sublinhado */
 }
+
+.liNav a:hover{
+    text-decoration: underline;
+}
+
+.liNav:hover{
+    background-color: #ffffff;
+}
+
+/* SLIDE */
+.slider {
+    width: auto;        /* muda para o tamanho que quiseres */
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0 0 0 ;
+}
+
+.slides {
+    width: 200%;          /* 2 imagens → 200% */
+    height: 100%;
+    display: flex;
+    animation: slide 6s infinite;
+    
+}
+
+.slide {
+    width: 50%;           /* 2 imagens → 50% cada uma */
+    height: 100%;
+    object-fit: cover;
+  flex-shrink: 0;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    45% { transform: translateX(0); }
+
+    55% { transform: translateX(-50%); }
+    90% { transform: translateX(-50%); }
+    100% { transform: translateX(0); } /* volta a 1ª com deslize */
+}
+
+
+/* FIM SLIDE */
