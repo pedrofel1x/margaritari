@@ -1,7 +1,7 @@
 .body {
     background-color: #fafbf8;
     font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     border: 0;
 }
@@ -12,21 +12,7 @@
     display: flex;
     background-color: #fafbf8;
     flex-direction: column;
-}
-
-
-.logo{
-     flex-direction: column;
-    align-items: flex-start;
-    padding: px;
-}
-
-.logo img {
-
-    max-width: 220px;  
-    height: auto;
-    display: block;
-    width: auto;
+    margin: 20px 5px 20px 5px;
 }
 
 .header {
@@ -44,6 +30,19 @@
     align-items: center;
 }
 
+
+.logo{
+     flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo img {
+
+    max-width: 220px;  
+    height: auto;
+    display: block;
+    width: auto;
+}
 .ulNav {
     margin: 0px;         
     list-style: none;
@@ -54,13 +53,12 @@
 .liNav {
     display:flex;
     border-radius: 50px;
-    width: 150px;
+    width: 120px;
     padding: 20px;
     margin: 5px;
     justify-content: center; 
     align-items: center;   
 }
-
 
 .liNav a {
     color: black;       /* cor normal */
@@ -71,10 +69,42 @@
     text-decoration: underline;
 }
 
-.liNav:hover{
-    background-color: #ffffff;
+.projects {
+
+    display: flex;
+    justify-content: flex end;
+    flex-direction: column;
+    align-content: center;
+    padding:20px;
+    text-align: justify;
 }
 
+.tituloProject{
+    padding: 0px 0px 0px 0px;
+}
+
+.centerProject{
+    padding: 0 200px 0 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.artigo {
+    flex-direction: column;
+    align-content: center;
+    padding:20px;
+    text-align: justify;
+}
+
+
+.imgProject {
+    float: right;
+    width: 30%;
+    padding: 15px;
+
+}
 /* SLIDE */
 .slider {
     width: auto;        /* muda para o tamanho que quiseres */
