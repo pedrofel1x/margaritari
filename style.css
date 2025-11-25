@@ -1,14 +1,16 @@
 .body {
-    background-color: #FFE5D1;
+    background-color: #fafbf8;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
+    margin: 0;
+    border: 0;
 }
 
 
 
 .container{
     display: flex;
-    background-color: #0f9c3e;
+    background-color: #fafbf8;
     flex-direction: column;
 }
 
@@ -28,7 +30,6 @@
 }
 
 .header {
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;  /* coloca logo à esquerda, menu à direita */
     align-items: center;             /* alinha verticalmente */
@@ -60,6 +61,7 @@
     align-items: center;   
 }
 
+
 .liNav a {
     color: black;       /* cor normal */
     text-decoration: none; /* remove o sublinhado */
@@ -79,7 +81,7 @@
     height: auto;
     overflow: hidden;
     position: relative;
-    padding: 10px 0 0 0 ;
+    padding:  0 0 0 ;
 }
 
 .slides {
