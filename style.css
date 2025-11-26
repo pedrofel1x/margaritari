@@ -1,7 +1,7 @@
 .body {
     background-color: #fafbf8;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
     border: 0;
 }
@@ -57,12 +57,15 @@
     padding: 20px;
     margin: 5px;
     justify-content: center; 
-    align-items: center;   
+    align-items: center;
 }
 
 .liNav a {
     color: black;       /* cor normal */
     text-decoration: none; /* remove o sublinhado */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    
 }
 
 .liNav a.active {
@@ -125,6 +128,7 @@
 
 .textoProject a:hover{
     text-decoration: underline;
+    font-weight: 400;
 }
     
 .imgProject {
@@ -154,11 +158,54 @@
 .contentprojeto {
 
     display: flex;
+    text-align: justify;
 }
-
+.contentprojeto p {
+    margin: 0;
+}
 .contentprojeto img {
     width: 450px;
+    padding-left: 40px;
 }
+
+.galeriaprojeto{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.galeriaprojeto img {
+
+    
+    width: 450px;
+    
+    padding-bottom: 10px;
+    
+    
+
+}
+
+
+.btn-scroll {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-scroll:hover {
+    background: #444;
+}
+
+
 /* FOOTER */
 .footer {
     background-color:#4c544a;
@@ -266,9 +313,11 @@
 
 @keyframes slide {
     0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
     45% { transform: translateX(0); }
 
-    55% { transform: translateX(-50%); }
+    75% { transform: translateX(-50%); }
+    90% { transform: translateX(-50%); }
     90% { transform: translateX(-50%); }
     100% { transform: translateX(0); } /* volta a 1ª com deslize */
 }
