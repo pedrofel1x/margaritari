@@ -101,7 +101,7 @@ main {
 }
 
 .tituloProjetos{
-    padding: 40px ;
+    padding: 20px ;
     display: flex;
     justify-content: center;
 }
@@ -187,6 +187,13 @@ main {
 .galeriaprojeto img {
     width: 450px;
     padding-bottom: 10px;
+}
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .formulario {
