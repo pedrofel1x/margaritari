@@ -225,6 +225,30 @@ main {
     
 }
 
+.btn-minimal{
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .btn-minimal a{
+    color: black;     
+    text-decoration: none;
+  }
+  .btn-minimal:hover a {
+    text-decoration: underline;
+    font-weight: 400;
+    color: #fff;
+}
+ .btn-minimal:hover{
+    background: #000;
+    color: #fff;
+  }
+
 .formulario {
     padding: 15px;
     margin: 0px 50px 50px 50px;
