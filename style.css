@@ -91,6 +91,12 @@ main {
     font-weight: 400;
 
 }
+.tituloh4 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+
+}
 .projects {
     display: flex;
     flex-direction: row;
@@ -192,8 +198,31 @@ main {
 
 .services {
     display: flex;
+    text-align: left;
+    padding: 0px 250px;
     flex-direction: column;
-    align-items: center;
+}
+
+.servicelist {
+    margin-bottom: 20px;
+}
+
+.servicecontent {
+
+    display: flex;
+    text-align: justify;
+    align-items: stretch;
+}
+.servicecontent p {
+    margin: 0;
+}
+.servicecontent img {
+    width: 450px;
+    height:200px;
+    padding-left: 140px; 
+    object-fit: cover;
+    margin-bottom: 50px;
+    
 }
 
 .formulario {
