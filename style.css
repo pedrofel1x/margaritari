@@ -240,13 +240,16 @@ main {
 
     display: flex;
     text-align: justify;
+    margin-bottom: 50px;
 }
 .contentprojeto p {
     margin: 0;
 }
 .contentprojeto img {
+    display: flex;
     width: 550px;
     padding-left: 40px; 
+    object-fit: cover;
 }
 
 .galeriaprojeto{
@@ -254,17 +257,28 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 20px;
 
 }
 .galeriaprojeto img {
     display: flex;
     width: 45%;
-    margin: 5px;
+    object-fit: cover;
+    
+  cursor: pointer;
+  transition: .3s ease-in-out;
+    
+}
+
+.galeriaprojeto img:hover {
+  transform: scale(1.04);
 }
 
 .fototitle {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .services {
