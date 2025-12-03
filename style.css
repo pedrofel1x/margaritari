@@ -110,7 +110,7 @@ main {
 
 .frasebaixoslide{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 .citacoes-section {
   max-width: 1200px;
@@ -125,7 +125,6 @@ main {
   color:#333;
 }
 
-/* Grid de cards */
 .citacoes {
   display: flex;
   flex-wrap: wrap;
