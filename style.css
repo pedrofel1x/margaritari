@@ -86,30 +86,33 @@ main {
 }
 
 .tituloh2 {
-
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-
 }
 .tituloh3 {
-
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
 .tituloh4 {
-
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+}
 
+.line {
+    border: 0; 
+  height: 2px;
+  width: 80%; 
+  background: linear-gradient(to right, transparent, #333, transparent); /* fade */
 }
 
 .frasebaixoslide{
     text-align: center;
-
+    padding-bottom: 20px;
 }
 .citacoes-section {
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 20px auto;
+  margin-bottom: 50px;
   padding: 0 20px;
 }
 .citacoes-section h2 {
@@ -383,7 +386,7 @@ main {
 /* FOOTER */
 .footer {
     background-color: #4C544A;
-    padding: 50px 50px 5px 50px ;
+    padding: 20px 50px 5px 50px ;
     /* margin-top: 150px; */
     flex-direction: column;
     align-items: flex-end;
@@ -463,7 +466,6 @@ main {
     font-weight: 400;
 
 }
-
 
 /* SLIDE */
 
