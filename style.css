@@ -73,16 +73,18 @@ main {
     text-decoration: none; /* remove o sublinhado */
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    transition: .3s ease; 
     
 }
 
 .liNav a.active {
     
     font-weight: bold;
+    transform: scale(1.15);
 
 }
 .liNav a:hover{
-    text-decoration: underline;
+    transform: scale(1.15);
 }
 
 .tituloh2 {
