@@ -73,6 +73,7 @@ main {
     text-decoration: none; /* remove o sublinhado */
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+
     transition: .3s ease; 
     
 }
@@ -192,17 +193,20 @@ main {
 .textoProject{
 
     text-align: left;
+    
 
 }
 .textoProject a{
 
     color: black;       /* cor normal */
-    text-decoration: none; /* remove o sublinhado */
+    text-decoration: none; /* remove o sublinhado */ 
+    transition: .2s ease;
 } 
 
 .textoProject a:hover{
-    text-decoration: underline;
+    
     font-weight: 400;
+    transform: scale(1.10);
 }
     
 .imgProject {
