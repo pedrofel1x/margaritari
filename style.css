@@ -20,7 +20,7 @@ main {
     display: flex;
     background-color: #fafbf8;
     flex-direction: column;
-    margin: 20px 5px 20px 5px;
+    margin: 20px 5px 10px 5px;
 }
 
 .header {
@@ -91,6 +91,11 @@ main {
     font-weight: 400;
 
 }
+.tituloh3 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
 .tituloh4 {
 
     font-family: "Montserrat", sans-serif;
@@ -107,7 +112,7 @@ main {
 }
 
 .tituloProjetos{
-    padding: 20px ;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -164,11 +169,14 @@ main {
 
 .projetosingle {
     display: flex;
-    text-align: left;
     padding: 0px 250px;
     flex-direction: column;
 }
 
+.tituloprojeto {
+    
+    text-align: left;
+}
 .contentprojeto {
 
     display: flex;
@@ -178,7 +186,7 @@ main {
     margin: 0;
 }
 .contentprojeto img {
-    width: 450px;
+    width: 550px;
     padding-left: 40px; 
 }
 
@@ -187,14 +195,18 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
     justify-content: space-between;
+
 }
 .galeriaprojeto img {
-    width: 450px;
-    padding-bottom: 10px;
+    display: flex;
+    width: 45%;
+    margin: 5px;
 }
 
+.fototitle {
+    text-align: center;
+}
 
 .services {
     display: flex;
